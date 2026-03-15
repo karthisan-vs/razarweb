@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | RapidDrop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo">RapidDrop</a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <a href="contact.html" class="btn btn-primary">Get Started</a>
+    </nav>
+
+    <main class="container">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem; align-items: center;">
+            <div>
+                <h1 style="font-size: 3rem;">Get in Touch</h1>
+                <p style="color: var(--text-muted); font-size: 1.1rem; margin-bottom: 2rem;">Have questions about our delivery services or need support? Our team is here to help you 24/7.</p>
+                
+                <div class="glass-card" style="padding: 2rem;">
+                    <div style="margin-bottom: 1.5rem;">
+                        <h4 style="color: var(--primary); margin-bottom: 0.5rem;">Business Name</h4>
+                        <p>RapidDrop Delivery Service</p>
+                    </div>
+                    <div style="margin-bottom: 1.5rem;">
+                        <h4 style="color: var(--primary); margin-bottom: 0.5rem;">Email Address</h4>
+                        <p><a href="mailto:karthisans.ug.24.it@francisxavier.ac.in" style="color: var(--text); text-decoration: none;">karthisans.ug.24.it@francisxavier.ac.in</a></p>
+                    </div>
+                    <div style="margin-bottom: 1.5rem;">
+                        <h4 style="color: var(--primary); margin-bottom: 0.5rem;">Phone Number</h4>
+                        <p><a href="tel:7550352806" style="color: var(--text); text-decoration: none;">+91 7550352806</a></p>
+                    </div>
+                    <div>
+                        <h4 style="color: var(--primary); margin-bottom: 0.5rem;">Our Office</h4>
+                        <p>Francis Xavier Engineering College,<br>Vannarpettai, Tirunelveli,<br>Tamil Nadu 627003</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="glass-card">
+                <h3 style="margin-bottom: 1.5rem;">Send a Message</h3>
+                <form onsubmit="event.preventDefault(); alert('Message sent successfully!');">
+                    <div style="margin-bottom: 1rem;">
+                        <label style="display: block; margin-bottom: 0.5rem; color: var(--text-muted);">Name</label>
+                        <input type="text" placeholder="Your Name" style="width: 100%; padding: 0.8rem; background: var(--glass); border: 1px solid var(--glass-border); border-radius: 8px; color: white;">
+                    </div>
+                    <div style="margin-bottom: 1rem;">
+                        <label style="display: block; margin-bottom: 0.5rem; color: var(--text-muted);">Email</label>
+                        <input type="email" placeholder="your@email.com" style="width: 100%; padding: 0.8rem; background: var(--glass); border: 1px solid var(--glass-border); border-radius: 8px; color: white;">
+                    </div>
+                    <div style="margin-bottom: 1.5rem;">
+                        <label style="display: block; margin-bottom: 0.5rem; color: var(--text-muted);">Message</label>
+                        <textarea rows="4" placeholder="How can we help?" style="width: 100%; padding: 0.8rem; background: var(--glass); border: 1px solid var(--glass-border); border-radius: 8px; color: white;"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-bottom">
+            <p>&copy; 2026 RapidDrop Delivery Service. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
